@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/favicon.png" type="image/x-icon">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <div id="navbar-placeholder"></div>
+        <script src="navbarloader.js"></script>
+    </header>
+
+<!----start section--->
+    <section>
+    <div class="vint">
+        <h1 class="vint-text">VINT</h1>
+        <h2>Potencialize seu sucesso!</h2>
+        <h4 class="clique-aqui">
+            <a href="#" onclick="scrollToElement('area-1')">Clique aqui</a>
+            para entrar em contato
+        </h4>
+    </div>
+
+    <div style="display: flex; margin-top: 60px; margin-bottom: auto;" class="container">
+        <div style="width: 600px; height: auto; margin: 15px;" class="card">
+            <div class="card-image">
+                <img src="imagens/ilustrativo.jpg">
+            </div>
+            <div class="card-content">
+                <span>Grupo VINT</span>
+            </div>
+        </div>
+    
+        <div style="width: 600px; height: auto; margin: 15px;" class="card">
+            <div style="margin: 10px;">
+                <h3>Sobre nos</h3>
+                <p>O Grupo VINT: Computação Visual e Inteligente da Universidade Federal de Rondonópolis (UFR) 
+                    é um exemplo notável de como a tecnologia e a inovação podem ser aplicadas para resolver problemas 
+                    reais da sociedade. Este grupo faz parte do curso de Sistemas de Informação da universidade e tem 
+                    como objetivo principal utilizar a computação visual e inteligente como ferramenta para impulsionar 
+                    o desenvolvimento de empresas pequenas e startups, oferecendo mentoria especializada.
+                </p>
+                <p>Uma das principais atividades do Grupo VINT é oferecer mentoria para empresas pequenas e 
+                    startups que desejam aproveitar os benefícios da computação visual e inteligente em seus 
+                    negócios. A mentoria inclui desde a identificação de oportunidades de aplicação da tecnologia 
+                    até a implementação de soluções personalizadas. Isso permite que essas empresas utilizem a 
+                    tecnologia de maneira eficaz para melhorar seus produtos, serviços e processos.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <svg width="380px" height="500px" viewBox="0 0 837 1045" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+            <path d="M353,9 L626.664028,170 L626.664028,487 L353,642 L79.3359724,487 L79.3359724,170 L353,9 Z" id="Polygon-1" stroke="#007FB2" stroke-width="6" sketch:type="MSShapeGroup"></path>
+            <path d="M78.5,529 L147,569.186414 L147,648.311216 L78.5,687 L10,648.311216 L10,569.186414 L78.5,529 Z" id="Polygon-2" stroke="#EF4A5B" stroke-width="6" sketch:type="MSShapeGroup"></path>
+            <path d="M773,186 L827,217.538705 L827,279.636651 L773,310 L719,279.636651 L719,217.538705 L773,186 Z" id="Polygon-3" stroke="#795D9C" stroke-width="6" sketch:type="MSShapeGroup"></path>
+            <path d="M639,529 L773,607.846761 L773,763.091627 L639,839 L505,763.091627 L505,607.846761 L639,529 Z" id="Polygon-4" stroke="#F2773F" stroke-width="6" sketch:type="MSShapeGroup"></path>
+            <path d="M281,801 L383,861.025276 L383,979.21169 L281,1037 L179,979.21169 L179,861.025276 L281,801 Z" id="Polygon-5" stroke="#36B455" stroke-width="6" sketch:type="MSShapeGroup"></path>
+        </g>
+    </svg>
+</section>
+<!----end section--->
+
+<section style="background-color: rgba(0, 0, 0, 0.322);" class="area-1" id="area-1">
+<div style="margin-top: 5%;" class="wrapper">
+    <!----start section2--->
+    <div style="justify-content: center; align-items: center; display: flex;">
+        <div style="width: 800px; height: 500px;" class="card">
+        <div class="card-content">
+        <div style="text-align: center;">
+            <h3>Crescer uma startup é uma jornada desafiadora.</h3>
+            <h6><p>Entrar em contato com uma mentoria especializada pode ser a</p> chave para desbloquear o potencial máximo de sua startup.</h6>
+        </div>
+            <form style="display: flex; justify-content: center; flex-direction: column;" method="" action="#">
+                <div class="input-field">
+                    <input id="email" type="email" class="validate" required>
+                    <label style="color: rgb(54, 54, 54);" for="email">Email</label>
+                </div>
+                <div class="input-field">
+                    <input id="telefone" type="text" class="validate" required>
+                    <label style="color: rgb(54, 54, 54);" for="telefone">telefone</label>
+                </div>
+                <div class="input-field">
+                    <input id="mensagem" type="text" required>
+                    <label style="color: rgb(54, 54, 54);" for="mensagem">Mensagem</label>
+                </div>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Enviar</button>
+            </form>
+        </div>
+        <span class="card-title" style="color: rgb(31, 31, 31); text-align: center;">Entre em contato</span>
+        </div>
+    </div>
+</div>
+</section>
+<!----end section--->
+
+<script>
+    ScrollReveal().reveal('.area-1', {
+    delay: 300,
+    origin: 'bottom',
+    distance: '50px',
+    easing: 'ease-in-out'
+});
+
+
+ScrollReveal().reveal('.area-1', {
+        delay: 300,
+        origin: 'top',
+        distance: '50px',
+        easing: 'ease-in-out'
+});
+
+function scrollToElement(elementId) {
+        var element = document.getElementById(elementId);
+        element.scrollIntoView({behavior: 'smooth'});
+    }
+
+</script>
+</body>
+</html>

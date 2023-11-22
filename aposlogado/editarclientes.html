@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--materialize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="/imagens/favicon.png" type="image/x-icon">
+    <title>Clientes</title>
+</head>
+<body>     
+  <body>     
+    <div class="sidebar">
+        <span class="logo">VINT</span>
+        <a href="inicial.html">Projetos</a>
+        <a href="relatorios.html">Relatórios</a>
+        <a href="clientes.html" class="active">Clientes</a>
+        <a href="jornadas.html">Jornadas</a>
+        
+        <form class="logout">
+            <a href="/home.html">Logout</a>
+        </form>
+    </div>
+    
+    <!-- Conteúdo principal -->
+    <div class="content">
+        <h1>Editar clientes</h1>
+        <div>
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title">Editar clientes</span>
+
+
+                <form method="" action="clientes.html">
+
+
+                      <div class="input-field">
+                        <input id="name" type="text" class="validate">
+                        <label for="name">Nome</label>
+                      </div>
+
+                      <div class="input-field">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                      </div>
+
+                      <div class="input-field">
+                        <input id="telefone" type="text" class="validate" pattern=".{9,}" title="O telefone não é válido">
+                        <label for="telefone">Telefone</label>
+                      </div>
+
+                      <div class="input-field">
+                        <input id="areaocupacao" type="text" class="validate">
+                        <label for="areaocupacao">Area de ocupação</label>
+                      </div>
+
+                  <button class="btn waves-effect waves-light" type="submit">Salvar</button>
+
+                </form>
+
+
+              </div>
+            </div>
+          </div>
+
+    </div>
+</body>
+
+</body>
+</html>

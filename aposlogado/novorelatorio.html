@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--materialize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="/imagens/favicon.png" type="image/x-icon">
+    <title>Relatorios</title>
+</head>
+<body>     
+  <body>     
+    <div class="sidebar">
+        <span class="logo">VINT</span>
+        <a href="inicial.html">Projetos</a>
+        <a href="relatorios.html" class="active">Relatórios</a>
+        <a href="clientes.html">Clientes</a>
+        <a href="jornadas.html">Jornadas</a>
+        
+        <form class="logout">
+            <a href="/home.html">Logout</a>
+        </form>
+    </div>
+    
+    <!-- Conteúdo principal -->
+    <div class="content">
+        <h1>Relatórios</h1>
+
+        <div class="card">
+            <div class="card-content">
+                <span class="card-title">Adicionar novo relatório</span>
+                <form method="" action="">
+                    <div class="input-field">
+                        <input id="titulo" type="text" class="validate" required>
+                        <label for="titulo">Título</label>
+                    </div>
+                    
+                    <div style="margin-bottom: 18px;" class="input">
+                        <input id="relatorio" type="text" maxlength="1000" required>
+                    </div>
+                    
+                    <p>
+                        <label>
+                            <input class="with-gap" name="opcao" type="radio" value="privado"/>
+                            <span style="font-weight: 300; font-size: 20px;">Privado</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input class="with-gap" name="opcao" type="radio" value="publico"/>
+                            <span style="font-weight: 300; font-size: 20px;">Público</span>
+                        </label>
+                    </p>
+                    
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</body>
+</html>

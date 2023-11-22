@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--materialize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="imagens/favicon.png" type="image/x-icon">
+    <link rel="icon" href="/imagens/favicon.png" type="image/x-icon">
+    <title>Projetos</title>
+</head>
+<body>
+    <header>
+    </header>  
+    <!--SIDEBAR-->
+    <div class="sidebar">
+        <span class="logo">VINT</span>
+        <a href="inicial.html" class="active">Projetos</a>
+        <a href="relatorios.html">Relatórios</a>
+        <a href="clientes.html">Clientes</a>
+        <a href="jornadas.html">Jornadas</a>
+        
+        <form class="logout">
+            <a href="/home.html">Logout</a>
+        </form>
+    </div>
+
+    <!---conteudo-->
+              <div style="padding-left: 220px; padding-top: 50px; justify-content: center;">
+                <div style="width: 1500px;" class="card">
+                  <div class="card-content">
+                    <span class="card-title">Novo Projeto</span>
+
+                    <form method="" action="inicial.html">
+
+                      <div class="input-field">
+                          <input id="nomeprojeto" type="text" class="validate" required>
+                          <label for="nomeprojeto">Digite aqui o nome do Projeto</label>
+                      </div>
+                      <div class="input-field">
+                          <input id="descricaoprojeto" type="text" class="validate" required>
+                          <label for="descricaoprojeto">Faça uma descrição do projeto</label>
+                      </div>
+                      <div class="input-field">
+                        <input id="jornada" type="text" class="validate" required>
+                        <label for="jornada">Qual a jornada desse projeto</label>
+                    </div>
+                      <button class="btn waves-effect waves-light" type="submit" name="action">Enviar</button>
+
+                    </form>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    
+</body>
+</html>

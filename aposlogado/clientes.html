@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--materialize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="/imagens/favicon.png" type="image/x-icon">
+    <title>Clientes</title>
+</head>
+<body>     
+    <div class="sidebar">
+        <span class="logo">VINT</span>
+        <a href="inicial.html">Projetos</a>
+        <a href="relatorios.html">Relatórios</a>
+        <a href="clientes.html" class="active">Clientes</a>
+        <a href="jornadas.html">Jornadas</a>
+        
+        <form class="logout">
+            <a href="/home.html">Logout</a>
+        </form>
+    </div>
+    
+    <!-- Conteúdo principal -->
+    <div class="content">
+        <h1>Saiba mais sobre seus clientes!</h1>
+            <table class="highlight">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Telefone</th>
+                        <th>Area de ocupação</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>João Silva</td>
+                        <td>joao@example.com</td>
+                        <td>(11) 555-1234</td>
+                        <td>tecnologia</td>
+                        <td>
+                            <a href="editarclientes.html" class="waves-effect waves-light btn-small">Editar</a>
+                            <a class="waves-effect waves-light btn-small red">Excluir</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Maria Souza</td>
+                        <td>maria@example.com</td>
+                        <td>(21) 555-5678</td>
+                        <td>visual</td>
+                        <td>
+                            <a href="editarclientes.html" class="waves-effect waves-light btn-small">Editar</a>
+                            <a class="waves-effect waves-light btn-small red">Excluir</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>    
+    </div>
+</body>
+</html>
